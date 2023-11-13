@@ -40,11 +40,11 @@ const Login = () => {
             <Form onSubmit={ handleSubmit }>
                 <Form.Group>
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type='email' name='email' value={formData.email} onChange={handleChange} required/>
+                    <Form.Control type='email' name='email' value={formData.email} autoComplete='on' onChange={handleChange} required/>
                 </Form.Group>
                 <Form.Group>
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type='password' name='password' value={formData.password} onChange={handleChange} required/>
+                    <Form.Control type='password' name='password' value={formData.password} autoComplete='on' onChange={handleChange} required/>
                 </Form.Group>
                 <Button variant='primary' type='submit'>Login</Button>
             </Form>
