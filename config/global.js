@@ -1,3 +1,3 @@
-const API_URL = 'http://localhost:4000';
+const API_URL = 'https://auth-be-ba9q.onrender.com';
 
 export default API_URL;
